@@ -1,0 +1,42 @@
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+}
+.menu-item{
+    width: 16.5%;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 1.5%;
+    padding: 3px;
+    box-sizing: border-box;
+    position: relative;
+}
+.menu-link{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.menu-item a{
+    color: grey;
+    font-size: 30px;
+    text-decoration: none;
+}
+.a{
+    border: 1px solid black;
+    width: 60%;
+    height: 130%;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    border-radius: 50px;
+    background-color: green;
+}
